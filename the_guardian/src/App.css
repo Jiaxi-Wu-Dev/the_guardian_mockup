@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: row;
   background-color: #0A1551;
+  justify-content: space-between;
+}
+
+.guardian-box{
+  margin-left: 50px;
 }
 
 .top-nav{
@@ -9,6 +14,8 @@
   flex-direction: row;
   list-style: none;
   color: white;
+  border: 1px red solid;
+  margin-right: 50px
   
 }
 
