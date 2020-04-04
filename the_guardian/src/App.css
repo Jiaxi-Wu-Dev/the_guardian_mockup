@@ -3,6 +3,13 @@
   src: url(/Users/dmac/Desktop/PerScholas/hw/the_guardian_mockup/the_guardian/assets/Libre_Baskerville/LibreBaskerville-Regular.ttf);
 }
 
+.banner-container{
+  display: flex;
+}
+
+.banner-container > div {
+  display: inline-block;
+}
 
 .banner {
   display: flex;

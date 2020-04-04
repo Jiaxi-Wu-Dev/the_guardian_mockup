@@ -4,7 +4,7 @@ class Banner extends Component {
     state = {}
     render() {
         return (<div className="banner-container">
-            <div className="banner">
+            <div className="container banner">
                 <div className="guardian-box">
                     <h1 className="guardian__heading--yellow"> Support The Guardian </h1>
                     <h3 className="guardian__heading-three--white"> Support our journalism with a year-end gift </h3>
@@ -25,7 +25,7 @@ class Banner extends Component {
                     </ul>
                 </div>
             </div>
-            <div>
+            <div className="container">
                 <ul className="bottom-navbar">
                     <li className="bottom-list">News</li>
                     <li className="bottom-list">Opinion</li>
