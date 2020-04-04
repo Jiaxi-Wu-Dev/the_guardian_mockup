@@ -3,13 +3,14 @@
   src: url(/Users/dmac/Desktop/PerScholas/hw/the_guardian_mockup/the_guardian/assets/Libre_Baskerville/LibreBaskerville-Regular.ttf);
 }
 
+
 .banner {
   display: flex;
   flex-direction: row;
   background-color: #0A1551;
   justify-content: space-between;
   font-family: Libre;
-  font-size: 18px
+  font-size: 18px;
 }
 
 .guardian-box{
@@ -38,15 +39,30 @@
   background-color: yellow; /* Green */
   border: none;
   color: black;
-  padding: 10px 15px;
+  padding: 7px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: bold;
   font-family: Libre;
-  
+  border-radius: 16px;
+  margin: 5px;
+  border: 1px solid red;
 }
 
 .login-picture{
   color: white;
 }
 
+.bottom-navbar{
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-start;
+  border: 1px red solid;
+  background-color: #0A1551;
+}
+
+.bottom-list{
+  margin: 15px;
+}
