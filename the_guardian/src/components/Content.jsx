@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios'
+import Left_column from './Left_column';
 
 class Content extends Component {
     constructor(props) {
@@ -29,8 +30,10 @@ class Content extends Component {
 
     render() {
         return (
-            <div>
-                <h1> weather API </h1>
+            <div className="content-container">
+                <div>
+                    <Left_column />
+                </div>
                 {/*                 <ul>
                     {this.state.data.map((recipe, id) => <li key={id}> {recipe.title} </li>)}
                 </ul> */}

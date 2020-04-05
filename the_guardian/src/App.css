@@ -3,6 +3,9 @@
   src: url(/Users/dmac/Desktop/PerScholas/hw/the_guardian_mockup/the_guardian/assets/Libre_Baskerville/LibreBaskerville-Regular.ttf);
 }
 
+*{
+  font-family: Libre;
+}
 /* .banner-container{
   display: flex;
 }
@@ -85,8 +88,15 @@
   flex-direction: row;
   margin: 0;
   list-style: none;
+  border: 1px gray solid;
 }
 
 .white-navbar__list{
   margin: 5px;
+}
+
+.left-column{
+  display: flex;
+  flex-direction: column;
+  border: 1px gray solid;
 }
