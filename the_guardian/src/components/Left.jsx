@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Left_column extends Component {
+class Left extends Component {
     state = {}
     render() {
         return (<div className="left-column">
@@ -13,4 +13,4 @@ class Left_column extends Component {
     }
 }
 
-export default Left_column;
+export default Left;
