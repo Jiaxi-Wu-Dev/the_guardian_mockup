@@ -35,6 +35,21 @@ class Banner extends Component {
                     <li className="bottom-list">More</li>
                 </ul>
             </div>
+            <div>
+                <ul className="white-navbar">
+                    <li className="white-navbar__list"> US </li>
+                    <li className="white-navbar__list"> Elections </li>
+                    <li className="white-navbar__list"> 2020 </li>
+                    <li className="white-navbar__list"> World </li>
+                    <li className="white-navbar__list"> Environment </li>
+                    <li className="white-navbar__list"> Soccer </li>
+                    <li className="white-navbar__list"> US </li>
+                    <li className="white-navbar__list"> Politics </li>
+                    <li className="white-navbar__list"> Business </li>
+                    <li className="white-navbar__list"> Tech </li>
+                    <li className="white-navbar__list"> Science </li>
+                </ul>
+            </div>
         </div>);
     }
 }
