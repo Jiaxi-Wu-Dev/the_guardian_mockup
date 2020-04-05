@@ -14,7 +14,7 @@ class Content extends Component {
     componentDidMount() {
         axios.get("https://content.guardianapis.com/search?api-key=d55a8921-dbf1-42e2-9824-7193574b6950")
             .then(res => {
-                const newsContent = res.data.results;
+                const newsContent = res.data
                 console.log("news content", newsContent)
 
                 this.setState({ data: newsContent })
