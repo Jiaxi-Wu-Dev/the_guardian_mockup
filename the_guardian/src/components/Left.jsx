@@ -1,3 +1,5 @@
+// Creating Left component, weather display
+
 import React, { Component } from 'react';
 
 class Left extends Component {

@@ -1,3 +1,6 @@
+//Creating right component
+// Need to import picture, then h5 texts
+
 import React, { Component } from 'react';
 import Harvey from '/Users/dmac/Desktop/PerScholas/hw/the_guardian_mockup/the_guardian/src/assets/4000.jpg'
 
