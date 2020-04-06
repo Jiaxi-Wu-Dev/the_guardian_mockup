@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import Left from './Left';
+import Chumer from '/Users/dmac/Desktop/PerScholas/hw/the_guardian_mockup/the_guardian/src/components/assets/5472.jpg'
 
 class Content extends Component {
     constructor(props) {
@@ -36,7 +37,7 @@ class Content extends Component {
                 </div>
                 <div>
                     <h4>Trump impeachment / Schumer says Senate trail without witnesses would be 'cover up'</h4>
-                    <img className="charles-schumer" src="/Users/dmac/Desktop/PerScholas/hw/the_guardian_mockup/the_guardian/src/assets/5472.jpg" alt="whyy"></img>
+                    <img className="charles-schumer" src={ Chumer } alt="whyy"></img>
                 </div>
                 {/*                 <ul>
                     {this.state.data.map((recipe, id) => <li key={id}> {recipe.title} </li>)}
