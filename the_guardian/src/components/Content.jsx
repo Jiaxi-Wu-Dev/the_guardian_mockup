@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import Left from './Left';
+import Right from './Right'
 import Chumer from '/Users/dmac/Desktop/PerScholas/hw/the_guardian_mockup/the_guardian/src/assets/5472.jpg'
 
 class Content extends Component {
@@ -53,6 +54,9 @@ class Content extends Component {
 
                     </div>
                      <img className="charles-schumer" src={Chumer} alt="whyy" width="450"></img>
+                </div>
+                <div>
+                    <Right />
                 </div>
                 {/*                 <ul>
                     {this.state.data.map((recipe, id) => <li key={id}> {recipe.title} </li>)}
