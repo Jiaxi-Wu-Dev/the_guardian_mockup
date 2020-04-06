@@ -1,3 +1,6 @@
+// Banner component
+// pictures, buttons
+
 import React, { Component } from 'react';
 
 class Banner extends Component {
