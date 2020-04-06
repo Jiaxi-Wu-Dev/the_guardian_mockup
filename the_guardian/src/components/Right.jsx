@@ -11,6 +11,9 @@ class Right extends Component {
             <h5 className="harvey-container--list">accuse disgraced</h5>
             <h5 className="harvey-container--list">mogul of 'trying to</h5>
             <h5 className="harvey-container--list">gaslight society'</h5>
+            <hr class="horizontal-line" />
+            <h5>Opinion Harvey Weinstein</h5>
+
         </div>);
     }
 }

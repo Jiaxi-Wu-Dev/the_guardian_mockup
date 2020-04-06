@@ -109,7 +109,7 @@
 .chumer-text-image{
   display: flex;
   flex-direction: row;
-  background-color: red;
+  background-color: #ab0003;
   color: white;
   
 }
@@ -129,4 +129,8 @@
 .harvey-container--list{
   margin: 0;
   font-size: 20px;
+}
+
+.horizontal-line{
+  border: 1px gray solid;
 }
