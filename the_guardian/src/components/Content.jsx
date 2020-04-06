@@ -1,3 +1,6 @@
+// content component
+// importing left and right component to this and then importing it to app.js
+
 import React, { Component } from 'react';
 import axios from 'axios'
 import Left from './Left';
