@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import Left from './Left';
-
+import Chumer from '/Users/dmac/Desktop/PerScholas/hw/the_guardian_mockup/the_guardian/src/assets/5472.jpg'
 
 class Content extends Component {
     constructor(props) {
@@ -45,14 +45,14 @@ class Content extends Component {
                             <h4 className="chumer-text">'cover up'</h4>
                         </div>
                         <div>
-                            <h5> Senate minority leader criticized</h5>
-                            <h5> the White House for its handling</h5>
-                            <h5> of the impeachmnt inquiry.</h5>
-                            <h5> saying 'trails have witnesses'</h5>
+                            <h5 className="senate-text"> Senate minority leader criticized</h5>
+                            <h5 className="senate-text"> the White House for its handling</h5>
+                            <h5 className="senate-text"> of the impeachmnt inquiry.</h5>
+                            <h5 className="senate-text"> saying 'trails have witnesses'</h5>
                         </div>
 
                     </div>
-                    {/*  <img className="charles-schumer" src={Chumer} alt="whyy" width="450"></img> */}
+                     <img className="charles-schumer" src={Chumer} alt="whyy" width="450"></img>
                 </div>
                 {/*                 <ul>
                     {this.state.data.map((recipe, id) => <li key={id}> {recipe.title} </li>)}

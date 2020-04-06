@@ -109,6 +109,9 @@
 .chumer-text-image{
   display: flex;
   flex-direction: row;
+  background-color: red;
+  color: white;
+  
 }
 
 .chumer-text{
@@ -116,5 +119,9 @@
 }
 
 .smallblock-text{
+  margin: 0px;
+}
+
+.senate-text{
   margin: 0px;
 }
