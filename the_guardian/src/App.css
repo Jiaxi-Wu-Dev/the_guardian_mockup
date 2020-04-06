@@ -100,3 +100,21 @@
   flex-direction: column;
   border: 1px gray solid;
 }
+
+.content-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.chumer-text-image{
+  display: flex;
+  flex-direction: row;
+}
+
+.chumer-text{
+  margin: 0px;
+}
+
+.smallblock-text{
+  margin: 0px;
+}
