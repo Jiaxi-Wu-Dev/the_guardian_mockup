@@ -36,7 +36,7 @@ class Content extends Component {
                 </div>
                 <div>
                     <h4>Trump impeachment / Schumer says Senate trail without witnesses would be 'cover up'</h4>
-                    <img src="/Users/dmac/Desktop/PerScholas/hw/the_guardian_mockup/the_guardian/assets/5472.jpg" alt="what is happenng" />
+                    <img className="charles-schumer" src="/Users/dmac/Desktop/PerScholas/hw/the_guardian_mockup/the_guardian/src/assets/5472.jpg" alt="whyy"></img>
                 </div>
                 {/*                 <ul>
                     {this.state.data.map((recipe, id) => <li key={id}> {recipe.title} </li>)}
